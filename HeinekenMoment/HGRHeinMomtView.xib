@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HGRHeinMomtView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jP3-p2-Wjc">
+                    <rect key="frame" x="0.0" y="0.0" width="376" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Rh-cH-NKi">
+                    <rect key="frame" x="62" y="208" width="250" height="250"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="Of1-AP-ZUh"/>
+                        <constraint firstAttribute="height" constant="250" id="SIA-aC-hnH"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ka2-07-mSK">
+                    <rect key="frame" x="22" y="75" width="34" height="30"/>
+                    <state key="normal" title="Start"/>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="PWJ-iW-AZh"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="90" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxH-Nt-TCY">
+                    <rect key="frame" x="90.5" y="237.5" width="193" height="191"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="160"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4R-dx-fPe">
+                    <rect key="frame" x="24" y="508" width="32" height="30"/>
+                    <state key="normal" title="Stop"/>
+                    <connections>
+                        <action selector="stopBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Btq-6y-QFA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jP3-p2-Wjc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="1vZ-Ud-gWI"/>
+                <constraint firstAttribute="trailing" secondItem="jP3-p2-Wjc" secondAttribute="trailing" id="9iD-6U-Z9r"/>
+                <constraint firstAttribute="bottom" secondItem="jP3-p2-Wjc" secondAttribute="bottom" id="IdV-FN-tMw"/>
+                <constraint firstItem="jP3-p2-Wjc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Jqk-9n-cLP"/>
+                <constraint firstItem="jP3-p2-Wjc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ciq-Xr-ViV"/>
+                <constraint firstItem="1Rh-cH-NKi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dt1-NX-iYO"/>
+                <constraint firstItem="jP3-p2-Wjc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eyR-fB-IZ5"/>
+                <constraint firstItem="1Rh-cH-NKi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="f1h-og-6Ut"/>
+                <constraint firstItem="jP3-p2-Wjc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gH5-BI-319"/>
+                <constraint firstItem="LxH-Nt-TCY" firstAttribute="centerX" secondItem="1Rh-cH-NKi" secondAttribute="centerX" id="iS3-Wj-zn9"/>
+                <constraint firstItem="LxH-Nt-TCY" firstAttribute="centerY" secondItem="1Rh-cH-NKi" secondAttribute="centerY" id="ikS-nA-Ste"/>
+                <constraint firstItem="jP3-p2-Wjc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kS7-Zd-dcx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="9iD-6U-Z9r"/>
+                    <exclude reference="IdV-FN-tMw"/>
+                    <exclude reference="Jqk-9n-cLP"/>
+                    <exclude reference="kS7-Zd-dcx"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="activeView" destination="1Rh-cH-NKi" id="JzA-Px-1zH"/>
+                <outlet property="timeLB" destination="LxH-Nt-TCY" id="O97-wF-gon"/>
+            </connections>
+            <point key="canvasLocation" x="550.5" y="337"/>
+        </view>
+    </objects>
+</document>

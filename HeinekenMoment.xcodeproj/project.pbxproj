@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0BE24E1B55F9BE00A23173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BE24D1B55F9BE00A23173 /* main.m */; };
+		5B0BE2511B55F9BE00A23173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BE2501B55F9BE00A23173 /* AppDelegate.m */; };
+		5B0BE2541B55F9BE00A23173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BE2531B55F9BE00A23173 /* ViewController.m */; };
+		5B0BE2571B55F9BE00A23173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0BE2551B55F9BE00A23173 /* Main.storyboard */; };
+		5B0BE2591B55F9BE00A23173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0BE2581B55F9BE00A23173 /* Assets.xcassets */; };
+		5B0BE25C1B55F9BE00A23173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0BE25A1B55F9BE00A23173 /* LaunchScreen.storyboard */; };
+		5B0BE2671B55F9BE00A23173 /* HeinekenMomentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BE2661B55F9BE00A23173 /* HeinekenMomentTests.m */; };
+		5B0BE2721B55F9BE00A23173 /* HeinekenMomentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BE2711B55F9BE00A23173 /* HeinekenMomentUITests.m */; };
+		5B0BE2811B55F9CC00A23173 /* HGRHeinMomtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BE2801B55F9CC00A23173 /* HGRHeinMomtView.m */; };
+		5B0BE2831B55FA4C00A23173 /* HGRHeinMomtView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0BE2821B55FA4C00A23173 /* HGRHeinMomtView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B0BE2631B55F9BE00A23173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B0BE2411B55F9BE00A23173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0BE2481B55F9BE00A23173;
+			remoteInfo = HeinekenMoment;
+		};
+		5B0BE26E1B55F9BE00A23173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B0BE2411B55F9BE00A23173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0BE2481B55F9BE00A23173;
+			remoteInfo = HeinekenMoment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B0BE2491B55F9BE00A23173 /* HeinekenMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeinekenMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0BE24D1B55F9BE00A23173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B0BE24F1B55F9BE00A23173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B0BE2501B55F9BE00A23173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B0BE2521B55F9BE00A23173 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B0BE2531B55F9BE00A23173 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B0BE2561B55F9BE00A23173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B0BE2581B55F9BE00A23173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B0BE25B1B55F9BE00A23173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B0BE25D1B55F9BE00A23173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0BE2621B55F9BE00A23173 /* HeinekenMomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeinekenMomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0BE2661B55F9BE00A23173 /* HeinekenMomentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeinekenMomentTests.m; sourceTree = "<group>"; };
+		5B0BE2681B55F9BE00A23173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0BE26D1B55F9BE00A23173 /* HeinekenMomentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeinekenMomentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0BE2711B55F9BE00A23173 /* HeinekenMomentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeinekenMomentUITests.m; sourceTree = "<group>"; };
+		5B0BE2731B55F9BE00A23173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0BE27F1B55F9CC00A23173 /* HGRHeinMomtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGRHeinMomtView.h; sourceTree = "<group>"; };
+		5B0BE2801B55F9CC00A23173 /* HGRHeinMomtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGRHeinMomtView.m; sourceTree = "<group>"; };
+		5B0BE2821B55FA4C00A23173 /* HGRHeinMomtView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGRHeinMomtView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B0BE2461B55F9BE00A23173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0BE25F1B55F9BE00A23173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0BE26A1B55F9BE00A23173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B0BE2401B55F9BE00A23173 = {
+			isa = PBXGroup;
+			children = (
+				5B0BE24B1B55F9BE00A23173 /* HeinekenMoment */,
+				5B0BE2651B55F9BE00A23173 /* HeinekenMomentTests */,
+				5B0BE2701B55F9BE00A23173 /* HeinekenMomentUITests */,
+				5B0BE24A1B55F9BE00A23173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B0BE24A1B55F9BE00A23173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BE2491B55F9BE00A23173 /* HeinekenMoment.app */,
+				5B0BE2621B55F9BE00A23173 /* HeinekenMomentTests.xctest */,
+				5B0BE26D1B55F9BE00A23173 /* HeinekenMomentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B0BE24B1B55F9BE00A23173 /* HeinekenMoment */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BE2821B55FA4C00A23173 /* HGRHeinMomtView.xib */,
+				5B0BE27F1B55F9CC00A23173 /* HGRHeinMomtView.h */,
+				5B0BE2801B55F9CC00A23173 /* HGRHeinMomtView.m */,
+				5B0BE24F1B55F9BE00A23173 /* AppDelegate.h */,
+				5B0BE2501B55F9BE00A23173 /* AppDelegate.m */,
+				5B0BE2521B55F9BE00A23173 /* ViewController.h */,
+				5B0BE2531B55F9BE00A23173 /* ViewController.m */,
+				5B0BE2551B55F9BE00A23173 /* Main.storyboard */,
+				5B0BE2581B55F9BE00A23173 /* Assets.xcassets */,
+				5B0BE25A1B55F9BE00A23173 /* LaunchScreen.storyboard */,
+				5B0BE25D1B55F9BE00A23173 /* Info.plist */,
+				5B0BE24C1B55F9BE00A23173 /* Supporting Files */,
+			);
+			path = HeinekenMoment;
+			sourceTree = "<group>";
+		};
+		5B0BE24C1B55F9BE00A23173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BE24D1B55F9BE00A23173 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B0BE2651B55F9BE00A23173 /* HeinekenMomentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BE2661B55F9BE00A23173 /* HeinekenMomentTests.m */,
+				5B0BE2681B55F9BE00A23173 /* Info.plist */,
+			);
+			path = HeinekenMomentTests;
+			sourceTree = "<group>";
+		};
+		5B0BE2701B55F9BE00A23173 /* HeinekenMomentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BE2711B55F9BE00A23173 /* HeinekenMomentUITests.m */,
+				5B0BE2731B55F9BE00A23173 /* Info.plist */,
+			);
+			path = HeinekenMomentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B0BE2481B55F9BE00A23173 /* HeinekenMoment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0BE2761B55F9BE00A23173 /* Build configuration list for PBXNativeTarget "HeinekenMoment" */;
+			buildPhases = (
+				5B0BE2451B55F9BE00A23173 /* Sources */,
+				5B0BE2461B55F9BE00A23173 /* Frameworks */,
+				5B0BE2471B55F9BE00A23173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeinekenMoment;
+			productName = HeinekenMoment;
+			productReference = 5B0BE2491B55F9BE00A23173 /* HeinekenMoment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B0BE2611B55F9BE00A23173 /* HeinekenMomentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0BE2791B55F9BE00A23173 /* Build configuration list for PBXNativeTarget "HeinekenMomentTests" */;
+			buildPhases = (
+				5B0BE25E1B55F9BE00A23173 /* Sources */,
+				5B0BE25F1B55F9BE00A23173 /* Frameworks */,
+				5B0BE2601B55F9BE00A23173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0BE2641B55F9BE00A23173 /* PBXTargetDependency */,
+			);
+			name = HeinekenMomentTests;
+			productName = HeinekenMomentTests;
+			productReference = 5B0BE2621B55F9BE00A23173 /* HeinekenMomentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B0BE26C1B55F9BE00A23173 /* HeinekenMomentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0BE27C1B55F9BE00A23173 /* Build configuration list for PBXNativeTarget "HeinekenMomentUITests" */;
+			buildPhases = (
+				5B0BE2691B55F9BE00A23173 /* Sources */,
+				5B0BE26A1B55F9BE00A23173 /* Frameworks */,
+				5B0BE26B1B55F9BE00A23173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0BE26F1B55F9BE00A23173 /* PBXTargetDependency */,
+			);
+			name = HeinekenMomentUITests;
+			productName = HeinekenMomentUITests;
+			productReference = 5B0BE26D1B55F9BE00A23173 /* HeinekenMomentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B0BE2411B55F9BE00A23173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mobilenow;
+				TargetAttributes = {
+					5B0BE2481B55F9BE00A23173 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5B0BE2611B55F9BE00A23173 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5B0BE2481B55F9BE00A23173;
+					};
+					5B0BE26C1B55F9BE00A23173 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5B0BE2481B55F9BE00A23173;
+					};
+				};
+			};
+			buildConfigurationList = 5B0BE2441B55F9BE00A23173 /* Build configuration list for PBXProject "HeinekenMoment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B0BE2401B55F9BE00A23173;
+			productRefGroup = 5B0BE24A1B55F9BE00A23173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B0BE2481B55F9BE00A23173 /* HeinekenMoment */,
+				5B0BE2611B55F9BE00A23173 /* HeinekenMomentTests */,
+				5B0BE26C1B55F9BE00A23173 /* HeinekenMomentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B0BE2471B55F9BE00A23173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0BE25C1B55F9BE00A23173 /* LaunchScreen.storyboard in Resources */,
+				5B0BE2831B55FA4C00A23173 /* HGRHeinMomtView.xib in Resources */,
+				5B0BE2591B55F9BE00A23173 /* Assets.xcassets in Resources */,
+				5B0BE2571B55F9BE00A23173 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0BE2601B55F9BE00A23173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0BE26B1B55F9BE00A23173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B0BE2451B55F9BE00A23173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0BE2541B55F9BE00A23173 /* ViewController.m in Sources */,
+				5B0BE2811B55F9CC00A23173 /* HGRHeinMomtView.m in Sources */,
+				5B0BE2511B55F9BE00A23173 /* AppDelegate.m in Sources */,
+				5B0BE24E1B55F9BE00A23173 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0BE25E1B55F9BE00A23173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0BE2671B55F9BE00A23173 /* HeinekenMomentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0BE2691B55F9BE00A23173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0BE2721B55F9BE00A23173 /* HeinekenMomentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B0BE2641B55F9BE00A23173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B0BE2481B55F9BE00A23173 /* HeinekenMoment */;
+			targetProxy = 5B0BE2631B55F9BE00A23173 /* PBXContainerItemProxy */;
+		};
+		5B0BE26F1B55F9BE00A23173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B0BE2481B55F9BE00A23173 /* HeinekenMoment */;
+			targetProxy = 5B0BE26E1B55F9BE00A23173 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B0BE2551B55F9BE00A23173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0BE2561B55F9BE00A23173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B0BE25A1B55F9BE00A23173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0BE25B1B55F9BE00A23173 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B0BE2741B55F9BE00A23173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B0BE2751B55F9BE00A23173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B0BE2771B55F9BE00A23173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeinekenMoment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilenowgroup.HeinekenMoment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B0BE2781B55F9BE00A23173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeinekenMoment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilenowgroup.HeinekenMoment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B0BE27A1B55F9BE00A23173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeinekenMomentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilenowgroup.HeinekenMomentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeinekenMoment.app/HeinekenMoment";
+			};
+			name = Debug;
+		};
+		5B0BE27B1B55F9BE00A23173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeinekenMomentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilenowgroup.HeinekenMomentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeinekenMoment.app/HeinekenMoment";
+			};
+			name = Release;
+		};
+		5B0BE27D1B55F9BE00A23173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeinekenMomentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilenowgroup.HeinekenMomentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeinekenMoment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5B0BE27E1B55F9BE00A23173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeinekenMomentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilenowgroup.HeinekenMomentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeinekenMoment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B0BE2441B55F9BE00A23173 /* Build configuration list for PBXProject "HeinekenMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0BE2741B55F9BE00A23173 /* Debug */,
+				5B0BE2751B55F9BE00A23173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0BE2761B55F9BE00A23173 /* Build configuration list for PBXNativeTarget "HeinekenMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0BE2771B55F9BE00A23173 /* Debug */,
+				5B0BE2781B55F9BE00A23173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0BE2791B55F9BE00A23173 /* Build configuration list for PBXNativeTarget "HeinekenMomentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0BE27A1B55F9BE00A23173 /* Debug */,
+				5B0BE27B1B55F9BE00A23173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0BE27C1B55F9BE00A23173 /* Build configuration list for PBXNativeTarget "HeinekenMomentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0BE27D1B55F9BE00A23173 /* Debug */,
+				5B0BE27E1B55F9BE00A23173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B0BE2411B55F9BE00A23173 /* Project object */;
+}
